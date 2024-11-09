@@ -1,4 +1,44 @@
-App para avaliação física 
+
+# App de Avaliação Física
+
+Este é um app para controle e gerenciamento de uma academia, criado pelo grupo de mentoria da Tips Code.
+
+**Data de início:** 09/11/2024
+
+### Equipe
+
+- **Professor:** Alisson Suassuna
+- **Alunos:**
+  - Clariana Abreu
+  - Marcos Daniel
+  - Renan Ramos
+
+---
+
+## Atividades - Semana 01
+
+### Clariana
+- [ ] Definição e criação dos campos:
+  - [ ] RCQ (Relação Cintura-Quadril)
+  - [ ] Dobras Cutâneas
+
+---
+
+### Marcos
+- [ ] Iniciar o BackEnd para receber e armazenar os dados
+
+---
+
+### Renan
+- [X] Implementar cálculo do IMC
+- [X] Integrar o cálculo ao app
+- [ ] Definir regras de validação dos valores:
+  - [ ] Altura: 0,00
+  - [ ] Peso: 000,00
+  - [ ] IMC: 00,00
+
+---
+# Informações do Negócio
 
 Fazer levantamento dos tipos ()
 
