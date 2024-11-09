@@ -32,10 +32,10 @@ Este é um app para controle e gerenciamento de uma academia, criado pelo grupo 
 ### Renan
 - [X] Implementar cálculo do IMC
 - [X] Integrar o cálculo ao app
-- [ ] Definir regras de validação dos valores:
-  - [ ] Altura: 0,00
-  - [ ] Peso: 000,00
-  - [ ] IMC: 00,00
+- [X] Definir regras de validação dos valores:
+  - [X] Altura: 0,00
+  - [X] Peso: 000,00
+  - [X] IMC: 00,00
 
 ---
 # Informações do Negócio

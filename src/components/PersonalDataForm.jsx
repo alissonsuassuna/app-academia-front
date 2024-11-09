@@ -8,7 +8,7 @@ function PersonalDataForm() {
         weight: ''
 
     })
-    const [imc, setImc] = useState("Salve dados para calcular")
+    const [imc, setImc] = useState(null)
 
     const imcCalc = (weight, height) => {
         return weight/(height*height)
@@ -18,7 +18,7 @@ function PersonalDataForm() {
         setFormDate({ ...formDate, [event.target.name]: event.target.value})
 
         //Apaga o valor do imc durante a edição
-        setImc("Salve dados para calcular")
+        setImc(null)
         console.log(event.target.type)
     }
     
@@ -46,7 +46,7 @@ function PersonalDataForm() {
             {/* Resultado */}
             <div>
                 <h2> Seu IMC é:</h2>
-                <p>{imc}</p>
+                <p>{imc?imc.toFixed(2):"Salve dados para exibir"}</p>
             </div>
 
         </section>
