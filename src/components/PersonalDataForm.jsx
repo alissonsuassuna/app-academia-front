@@ -16,6 +16,10 @@ function PersonalDataForm() {
 
     const mudou = (event) => {
         setFormDate({ ...formDate, [event.target.name]: event.target.value})
+
+        //Apaga o valor do imc durante a edição
+        setImc("Salve dados para calcular")
+        console.log(event.target.type)
     }
     
     const testeForm = (event) => {
@@ -32,9 +36,9 @@ function PersonalDataForm() {
                 <label>Nome:</label>
                 <input type="text" name="name" onChange={mudou} value={formDate.name} placeholder="Nome do aluno"/>
 
-                <input type="text" name="height" onChange={mudou} value={formDate.height} placeholder="Altura"/>
+                <input type="number"  step="0.01" min="0" name="height" onChange={mudou} value={formDate.height} placeholder="Altura"/>
 
-                <input type="text" name="weight" onChange={mudou} value={formDate.weight} placeholder="Peso"/>
+                <input type="number"  step="0.1" min="0" name="weight" onChange={mudou} value={formDate.weight} placeholder="Peso"/>
 
                 <button type="submit">Salvar Dados</button>
             </form>
