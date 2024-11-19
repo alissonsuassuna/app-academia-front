@@ -1,0 +1,27 @@
+{
+  "name": "academia-back-end",
+  "version": "1.0.0",
+  "description": "Projeto de backEnd para controle de clientes de academia",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissonsuassuna/app-academia-front.git"
+  },
+  "keywords": [
+    "academia",
+    "TipsCode"
+  ],
+  "author": "Alisson Suassuna e Alunos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alissonsuassuna/app-academia-front/issues"
+  },
+  "homepage": "https://github.com/alissonsuassuna/app-academia-front#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
