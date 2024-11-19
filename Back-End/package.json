@@ -1,27 +1,24 @@
 {
-  "name": "academia-back-end",
+  "name": "backend-avaliacao-fisica",
   "version": "1.0.0",
-  "description": "Projeto de backEnd para controle de clientes de academia",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alissonsuassuna/app-academia-front.git"
-  },
-  "keywords": [
-    "academia",
-    "TipsCode"
-  ],
-  "author": "Alisson Suassuna e Alunos",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alissonsuassuna/app-academia-front/issues"
-  },
-  "homepage": "https://github.com/alissonsuassuna/app-academia-front#readme",
+  "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "nodemon": "^3.1.7"
   }
 }
