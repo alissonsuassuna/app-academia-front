@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PersonalDataForm from './components/PersonalDataForm'
+import UserDataForm from './components/UserDataForm'
 function App() {
   
   return (
@@ -10,4 +11,3 @@ function App() {
   )
 }
 
-export default App
