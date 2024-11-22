@@ -25,7 +25,8 @@ Este é um app para controle e gerenciamento de uma academia, criado pelo grupo 
 ---
 
 ### Marcos
-- [ ] Iniciar o BackEnd para receber e armazenar os dados
+- [X] Iniciar o BackEnd para receber e armazenar os dados
+ - OBS.: Backend completo com db, ver readme dentro da pasta Back-End
 
 ---
 

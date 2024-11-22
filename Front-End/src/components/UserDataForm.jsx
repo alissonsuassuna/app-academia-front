@@ -10,6 +10,6 @@ function UserDataForm() {
 
   // Função para calcular a relação Cintura-Quadril (RCQ)
 
-
-
 }
+
+export default UserDataForm
