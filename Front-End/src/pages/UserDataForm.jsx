@@ -75,7 +75,7 @@ function UserDataForm() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-100 flex items-center justify-center flex-col">
+    <div className="min-h-screen bg-blue-100 flex flex-col items-center justify-start pt-20 pb-20">
       <div className="bg-white p-8 rounded-lg shadow-lg w-96">
         <h1 className="text-2xl font-bold text-center text-blue-500">
           Cálculo RCQ e Dobras Cutâneas
