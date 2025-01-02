@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import UserDataForm from './pages/UserDataForm'
+import UserDataForm from './pages/UserDataForm' // foi importado o arquivo UserDataForm que está dentro do page
 import PersonalDataForm from './pages/PersonalDataForm'
 import PageTest from './pages/PageTest'
 
